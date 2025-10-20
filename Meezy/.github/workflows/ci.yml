@@ -1,0 +1,21 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install & Build Backend
+        working-directory: backend
+        run: |
+          npm install
+          npm run test
+      - name: Install & Build Frontend
+        working-directory: frontend
+        run: |
+          npm install
+          npm run build

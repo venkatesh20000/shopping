@@ -1,0 +1,46 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": "1",
+      "title": "Printed Kurta",
+      "price": 599,
+      "rating": 4.2,
+      "seller": "Asha Textiles",
+      "img": "",
+      "stock": 30,
+      "description": "Comfortable cotton kurta."
+    },
+    {
+      "id": "2",
+      "title": "Stainless Steel Tawa",
+      "price": 899,
+      "rating": 4.0,
+      "seller": "KitchenPro",
+      "img": "",
+      "stock": 15,
+      "description": "Non-stick stainless steel tawa."
+    },
+    {
+      "id": "3",
+      "title": "Men Sneakers",
+      "price": 1299,
+      "rating": 4.5,
+      "seller": "StepUp",
+      "img": "",
+      "stock": 40,
+      "description": "Lightweight running sneakers."
+    },
+    {
+      "id": "4",
+      "title": "LED Lamp",
+      "price": 349,
+      "rating": 3.9,
+      "seller": "BrightHome",
+      "img": "",
+      "stock": 50,
+      "description": "Energy-saving LED lamp."
+    }
+  ],
+  "orders": []
+}

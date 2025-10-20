@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional vibrant gradient backgrounds */
+body {
+  @apply bg-gradient-to-br from-purple-200 via-pink-200 to-yellow-100 min-h-screen;
+}
+
+button {
+  @apply transition-all duration-200 hover:scale-105;
+}
